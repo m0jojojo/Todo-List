@@ -1,0 +1,86 @@
+body{
+	font-family: roboto;
+	font-size: 16px;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.fa-plus{
+	float: right;
+}
+
+h1{
+	background: #833a53;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 22px;
+	font-weight: normal;
+
+}
+li{
+	height: 32px;
+	line-height: 32px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #fff;
+}
+
+#container{
+	margin: 100px auto;
+	width: 360px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	font-size: 18px;
+	background: #f7f7f7;
+	width: 360px;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #833a53;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 3px solid #833a53;
+	outline: none;
+}
+
+span{
+	background: #833a53;
+	height: 32px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: all 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
+
+/*icons used in font awesome library are basically text*/
